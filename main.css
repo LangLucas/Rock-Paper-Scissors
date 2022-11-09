@@ -2,8 +2,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    background-color: #ceedf3;
 }
-
 
 .tittle{
     background-color: #565365;
@@ -13,14 +13,17 @@
     padding: 20px;
     text-align: center;
     color: aliceblue;
+    background-color: dodgerblue;
 }
 
+                              /* SELECCION BOX */
 .selection{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 .btn {
     margin: 20px;
 }
@@ -28,4 +31,48 @@
 img{
     width: 150px;
     height: 150px;
+}
+
+                                /* BOX GAME */
+.game{
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.box{
+    border: 2px solid;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    
+    
+}
+
+.b1, .b2, .b3 {
+    height: 40px;
+    align-items: center;
+}
+
+.b4, .b5, .b6 {
+    height: 300px;
+}
+
+.b5{
+    align-items: center;
+}
+
+.b6, .b4{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    height: 45px;
 }
