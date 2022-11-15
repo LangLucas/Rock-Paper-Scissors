@@ -30,10 +30,12 @@
     border: none;
     width: 150px;
     height: 150px;
+    transition: .3px;
 }
 
 .btn:hover{
     transform: translateY(-3px) scale(1.05);
+    cursor: pointer;
 }
 
 img{
@@ -53,11 +55,11 @@ img{
 }
 
 .box{
-    border: white 2px solid;
+    border: #003566 2px solid;
     display: flex;
     /* align-content: center; */
     justify-content: center;
-    background-color: #000814;
+    background-color: #001D3D;
     
     
 }
@@ -69,10 +71,19 @@ img{
 
 .b4, .b5, .b6 {
     height: 300px;
+    padding-top: 5px;
 }
 
 .b5{
     align-items: center;
+    
+}
+
+.b5 p{
+    background-color: #001D3D;
+    text-align: center;
+    padding: 20px;
+
 }
 
 .b6, .b4{
@@ -85,4 +96,26 @@ img{
     align-items: center;
     justify-content: center;
     height: 45px;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-battle{
+    border-radius: 10px;
+    width: 100px;
+    height: 75px;
+    background-color: #FFC300;
+}
+.btn-battle:hover{
+    transform: translateY(-3px) scale(1.05);
+    cursor: pointer;
+    
+}
+
+.btn-container2{
+    display: flex;
+    justify-content: center;
 }
